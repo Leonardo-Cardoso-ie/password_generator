@@ -1,5 +1,13 @@
 # Password Generator
 
+
+![imaggggg](https://user-images.githubusercontent.com/96269648/187073219-7d194f46-ad65-4879-9104-a1c6f1fba925.png)
+
+
+
+
+
+
 A random password generator is software program or hardware device that takes input from a random or pseudo-random number generator and automatically generates a password.
 This software allows the user an interactive and intuitive experience, making it possible to generate infinite combinations between 5 and 25 characters, for each password, through these parameters the user can define what level of security the password will have.
 
