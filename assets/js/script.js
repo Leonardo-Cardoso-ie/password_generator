@@ -14,5 +14,14 @@ let charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@"
 
 let newPassword ="";
 
-sizePassword.innerHTML = sliderElement.ariaValueMax;
+sizePassword.innerHTML = sliderElement.value;
+
+
+/**
+ * character count when swiping the bar
+ */
+slider.oninput = function() {
+    sizePassword.innerHTML = this.value;
+}
+
 
