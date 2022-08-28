@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A random password generator is software program or hardware device that takes input from a random or pseudo-random number generator and automatically generates a password..">
     <meta name="keywords" content="Password generator, password, generator">
     <title>Password Generator</title>
 
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <img class="logo" src="assets/images/logo.png" alt="Password generator logo" />
 
     <main class="container-input">
         <span>Size: <span id="value"></span> character</span>
-        <input id="slider" class="slider" type="range" min="5" max="25" value="15"/>
+        <input id="slider" class="slider" type="range" min="5" max="25" value="15" />
 
-        <button id = "button" class="button-cta" onclick="generatePassword()"> Generate password </button> 
+        <button id="button" class="button-cta" onclick="generatePassword()"> Generate password </button>
     </main>
 
     <div id="container-password" onclick="copyPassword()" class="container-password hide">
-      <span class="title">Your generated password was:</span>
-      <span id="password" class="password">123412341234</span>
-      <span class="tooltip">click password to copy.</span>
+        <span class="title">Your generated password was:</span>
+        <span id="password" class="password">123412341234</span>
+        <span class="tooltip">click password to copy.</span>
     </div>
 
 
-<script src="assets/js/script.js"></script> 
+    <script src="assets/js/script.js"></script>
 </body>
+
 </html>
