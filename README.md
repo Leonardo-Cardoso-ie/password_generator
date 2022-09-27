@@ -3,7 +3,7 @@
 
 ![imaggggg](https://user-images.githubusercontent.com/96269648/187073219-7d194f46-ad65-4879-9104-a1c6f1fba925.png)
 
-The Live link can be found here:  https://leonardo-cardoso-ie.github.io/password_generator-ms2/
+The Live link can be found here:https://leonardo-cardoso-ie.github.io/password_generator/
 
 
 
@@ -77,7 +77,6 @@ This section should describe the process you went through to deploy the project 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
 
 
 ## Credits 
