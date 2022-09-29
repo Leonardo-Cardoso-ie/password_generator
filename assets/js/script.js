@@ -19,7 +19,7 @@ sizePassword.innerHTML = sliderElement.value;
 /**
  * character count when swiping the bar
  */
-slider.oninput = function () {
+slider.oninput = function() {
     sizePassword.innerHTML = this.value;
 }
 
@@ -31,7 +31,7 @@ function generatePassword() {
 
     let pass = "";
 
-    for (let i = 0, n = charset.length; i < sliderElement.value; ++i) {
+    for (let i = 0, n = charset.length; i < sliderElement.value; ++i){
         pass += charset.charAt(Math.floor(Math.random() * n));
 
     }
