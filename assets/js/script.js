@@ -35,10 +35,12 @@ function generatePassword() {
         pass += charset.charAt(Math.floor(Math.random() * n));
 
     }
-
+    
+    console.log(pass)
     containerPassword.classList.remove("hide");
     password.innerHTML = pass;
     newPassword = pass;
+    
 }
 
 /**
@@ -48,5 +50,7 @@ function generatePassword() {
 function copyPassword() {
     alert("Password copied successfully!");
     navigator.clipboard.writeText(newPassword);
+    
 
 }
+
